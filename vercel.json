@@ -1,7 +1,4 @@
 {
-  "functions": {
-    "api/socket.js": {}
-  },
   "rewrites": [
     {
       "source": "/socket.io/(.*)",
