@@ -1,8 +1,6 @@
 {
   "functions": {
-    "api/socket.js": {
-      "runtime": "vercel-nodejs@18.0.0"
-    }
+    "api/socket.js": {}
   },
   "rewrites": [
     {
