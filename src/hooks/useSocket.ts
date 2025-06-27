@@ -59,7 +59,7 @@ export const useSocket = () => {
   useEffect(() => {
     // Connect to Socket.IO server
     socketRef.current = io(process.env.NODE_ENV === 'production' 
-      ? 'https://your-vercel-app.vercel.app' 
+      ? 'https://sketch-arena.vercel.app' 
       : 'http://localhost:3001'
     );
 
